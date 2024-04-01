@@ -3,7 +3,7 @@
 #include "esphome/components/sensor/sensor.h"
 
 namespace esphome {
-namespace pool_valve {
+namespace poolvalve {
 
 class PoolValve : public Component {
  public:
@@ -27,5 +27,5 @@ class PoolValve : public Component {
   void on_direction_change_complete();
 };
 
-}  // namespace pool_valve
+}  // namespace poolvalve
 }  // namespace esphome

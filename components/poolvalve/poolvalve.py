@@ -2,7 +2,6 @@ from esphome.components import sensor
 from esphome.const import CONF_ID, ICON_ARROW_RIGHT_BOLD, UNIT_EMPTY
 
 CONF_DIRECTION_SENSOR = 'direction_sensor'
-
 CONFIG_SCHEMA = cv.Schema({
     cv.GenerateID(): cv.declare_id(PoolValve),
     cv.Required(CONF_VALVE_DIRECTION_1): cv.use_id(output.BinaryOutput),
