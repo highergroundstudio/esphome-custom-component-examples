@@ -1,5 +1,5 @@
 from esphome.components import sensor
-from esphome.const import CONF_ID, ICON_ARROW_RIGHT_BOLD, UNIT_EMPTY
+from esphome.const import CONF_ID, UNIT_EMPTY
 
 CONF_DIRECTION_SENSOR = 'direction_sensor'
 CONFIG_SCHEMA = cv.Schema({
